@@ -294,13 +294,17 @@ input[type="checkbox"]:checked::before {
 
 
 .color-grid {
-	display: flex;
-	flex-wrap: wrap;
-	font-size: var( --font-size__small );
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
 	gap: 20px;
+	max-width: 100%;
+	font-size: var( --font-size__small );
 }
+
 .color-tile {
 	position: relative;
+	width: 100%;
+	max-width: 800px;
 	display: grid;
 	flex-grow: 1;
 	grid-template-columns: 1fr auto;
@@ -338,6 +342,23 @@ input[type="checkbox"]:checked::before {
 		}
 	}
 }
+
+@media screen and ( min-width: 1000px ) {
+	/* Tiles that span two rows */
+	.color-tile.tall {
+		grid-row: span 2;
+	}
+}
+@media screen and (max-width: 699px) {
+	.color-grid {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.color-tile {
+		width: auto;
+	}
+}
+
 @media (hover: none) {
 	.color-tile {
 		&::after {
@@ -378,6 +399,8 @@ input[type="checkbox"]:checked::before {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	margin-top: auto;
+	white-space: nowrap;
 	font-family: var( --font__mono );
 	transition: all var( --transition__default );
 	transform: translate3d( 0, 2px, 0 );

@@ -14,12 +14,25 @@ document.addEventListener("DOMContentLoaded", function () {
 	const colorGrid = document.querySelector('.color-grid');
 	const checkboxes = document.querySelectorAll('.site-filter input[type="checkbox"]');
 
+	function addRandomGridClasses() {
+		const colorTiles = document.querySelectorAll('.color-tile');
+		colorTiles.forEach((tile, index) => {
+			if ((index + 1) % 8 === 0) {
+				// Randomly assign either "wide" or "tall" class
+				const randomClass = Math.random() > 0.5 ? 'wide' : 'tall';
+				tile.classList.add(randomClass);
+			}
+		});
+	}
+
 	// Fetch the color data from the JSON file
 	fetch('colors.json')
 		.then(response => response.json())
 		.then(data => {
 			const randomizedColors = data.sort(() => Math.random() - 0.5);
 			appendColorTiles(randomizedColors); // Append tiles
+			addRandomGridClasses(); // Add random classes to every 8th tile
+			applyUrlPresetFilters(); // Apply URL presets only after tiles are appended
 		})
 		.catch(error => console.error('Error loading colors:', error));
 
@@ -66,9 +79,42 @@ document.addEventListener("DOMContentLoaded", function () {
 		return colorTile;
 	}
 
+	// Function to apply URL preset filters on page load
+	function applyUrlPresetFilters() {
+		const urlParams = new URLSearchParams(window.location.search);
+		const filterParam = urlParams.get('filter');
+
+		if (filterParam) {
+			const presetFilters = filterParam.split('+'); // Split filters by '+'
+			checkboxes.forEach(checkbox => {
+				checkbox.checked = presetFilters.includes(checkbox.id.replace('filter-color-', ''));
+			});
+		}
+
+		// Immediately apply filtering based on URL presets
+		filterColors();
+	}
+
+	// Function to update URL with the current filters
+	function updateUrlWithFilters() {
+		const selectedFilters = Array.from(checkboxes)
+			.filter(checkbox => checkbox.checked)
+			.map(checkbox => checkbox.id.replace('filter-color-', ''))
+			.join('+');
+
+		// Update the URL without reloading the page
+		if (selectedFilters) {
+			const newUrl = `${window.location.pathname}?filter=${selectedFilters}`;
+			window.history.replaceState(null, '', newUrl);
+		} else {
+			// If no filters are selected, remove the 'filter' parameter
+			const newUrl = window.location.pathname;
+			window.history.replaceState(null, '', newUrl);
+		}
+	}
+
 	// Function to filter color tiles based on selected checkboxes
 	function filterColors() {
-		// Add the class 'filter-update' to the <html> element
 		document.documentElement.classList.add('filter-update');
 
 		// Remove the class 'filter-update' after 400ms
@@ -80,7 +126,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			.filter(checkbox => checkbox.checked)
 			.map(checkbox => checkbox.id.replace('filter-color-', ''));
 
-		const colorTiles = document.querySelectorAll('.color-tile'); // Get the dynamically created tiles
+		const colorTiles = document.querySelectorAll('.color-tile');
 
 		// Show all tiles if no filter is selected
 		if (selectedColors.length === 0) {
@@ -88,28 +134,50 @@ document.addEventListener("DOMContentLoaded", function () {
 				tile.classList.add('visible');
 				tile.classList.remove('hidden');
 			});
-			return;
+		} else {
+			// Apply 'visible' or 'hidden' class based on the selected filters
+			colorTiles.forEach(tile => {
+				const tileCategories = tile.getAttribute('data-color-category').split(' ');
+				const isMatch = selectedColors.some(color => tileCategories.includes(color));
+
+				if (isMatch || tileCategories.includes('grey')) {
+					tile.classList.add('visible');
+					tile.classList.remove('hidden');
+				} else {
+					tile.classList.add('hidden');
+					tile.classList.remove('visible');
+				}
+			});
 		}
 
-		// Loop through all tiles and apply 'visible' or 'hidden' class based on the selected filters
-		colorTiles.forEach(tile => {
-			const tileCategories = tile.getAttribute('data-color-category').split(' ');
-			const isMatch = selectedColors.some(color => tileCategories.includes(color));
+		// Reapply only the "tall" class to certain tiles after filtering
+		reapplyTallClasses();
 
-			if (isMatch || tileCategories.includes('grey')) { // Ensure grey is always shown
-				tile.classList.add('visible');
-				tile.classList.remove('hidden');
-			} else {
-				tile.classList.add('hidden');
-				tile.classList.remove('visible');
-			}
-		});
-	}
+		// Update the URL with current filter selections
+		updateUrlWithFilters();
+		}
 
 	// Add event listeners to checkboxes to trigger the filter on change
 	checkboxes.forEach(checkbox => {
 		checkbox.addEventListener('change', filterColors);
 	});
+
+	// Function to reapply "wide" and "tall" classes
+	function reapplyTallClasses() {
+		const visibleTiles = document.querySelectorAll('.color-tile.visible');
+
+		// Remove existing "tall" classes
+		visibleTiles.forEach(tile => {
+			tile.classList.remove('tall');
+		});
+
+		// Re-apply only "tall" class to every 8th visible tile
+		visibleTiles.forEach((tile, index) => {
+			if ((index + 1) % 8 === 0) {
+				tile.classList.add('tall');
+			}
+		});
+	}
 
 	// Handle color preview functionality with event delegation
 	colorGrid.addEventListener('click', function (e) {
