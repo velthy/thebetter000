@@ -1,0 +1,938 @@
+[
+    {
+      "name": "Urban Charcoal",
+      "hex": "#343434",
+      "rgb": "rgb(52, 52, 52)",
+      "hsl": "hsl(0, 0%, 20%)",
+      "hue": 0,
+      "saturation": "0%",
+      "colorCategory": "grey"
+    },
+    {
+      "name": "Graphite Dust",
+      "hex": "#2d2d2d",
+      "rgb": "rgb(45, 45, 45)",
+      "hsl": "hsl(0, 0%, 17%)",
+      "hue": 0,
+      "saturation": "0%",
+      "colorCategory": "grey"
+    },
+    {
+      "name": "Forge Iron",
+      "hex": "#272727",
+      "rgb": "rgb(39, 39, 39)",
+      "hsl": "hsl(0, 0%, 15%)",
+      "hue": 0,
+      "saturation": "0%",
+      "colorCategory": "grey"
+    },
+    {
+      "name": "Midnight Slate",
+      "hex": "#202020",
+      "rgb": "rgb(32, 32, 32)",
+      "hsl": "hsl(0, 0%, 12%)",
+      "hue": 0,
+      "saturation": "0%",
+      "colorCategory": "grey"
+    },
+    {
+      "name": "Obsidian Flake",
+      "hex": "#1a1a1a",
+      "rgb": "rgb(26, 26, 26)",
+      "hsl": "hsl(0, 0%, 10%)",
+      "hue": 0,
+      "saturation": "0%",
+      "colorCategory": "grey"
+    },
+    {
+      "name": "Eclipse Shadow",
+      "hex": "#131313",
+      "rgb": "rgb(19, 19, 19)",
+      "hsl": "hsl(0, 0%, 7%)",
+      "hue": 0,
+      "saturation": "0%",
+      "colorCategory": "grey"
+    },
+    {
+      "name": "Abyss Black",
+      "hex": "#0d0d0d",
+      "rgb": "rgb(13, 13, 13)",
+      "hsl": "hsl(0, 0%, 5%)",
+      "hue": 0,
+      "saturation": "0%",
+      "colorCategory": "grey"
+    },
+    {
+      "name": "Void Essence",
+      "hex": "#060606",
+      "rgb": "rgb(6, 6, 6)",
+      "hsl": "hsl(0, 0%, 2%)",
+      "hue": 0,
+      "saturation": "0%",
+      "colorCategory": "grey"
+    },
+    {
+      "name": "Emerald Vivid Shadow",
+      "hex": "#000a03",
+      "rgb": "rgb(0, 10, 3)",
+      "hsl": "hsl(140, 100%, 2%)",
+      "hue": 140,
+      "saturation": "100%",
+      "colorCategory": "green"
+    },
+    {
+      "name": "Emerald Vivid Dusk",
+      "hex": "#001406",
+      "rgb": "rgb(0, 20, 6)",
+      "hsl": "hsl(140, 100%, 4%)",
+      "hue": 140,
+      "saturation": "100%",
+      "colorCategory": "green"
+    },
+    {
+      "name": "Emerald Vivid Dawn",
+      "hex": "#00280d",
+      "rgb": "rgb(0, 40, 13)",
+      "hsl": "hsl(140, 100%, 8%)",
+      "hue": 140,
+      "saturation": "100%",
+      "colorCategory": "green"
+    },
+    {
+      "name": "Emerald Rich Shadow",
+      "hex": "#010803",
+      "rgb": "rgb(1, 8, 3)",
+      "hsl": "hsl(140, 75%, 2%)",
+      "hue": 140,
+      "saturation": "75%",
+      "colorCategory": "green"
+    },
+    {
+      "name": "Emerald Rich Dusk",
+      "hex": "#021107",
+      "rgb": "rgb(2, 17, 7)",
+      "hsl": "hsl(140, 75%, 4%)",
+      "hue": 140,
+      "saturation": "75%",
+      "colorCategory": "green"
+    },
+    {
+      "name": "Emerald Rich Dawn",
+      "hex": "#05230f",
+      "rgb": "rgb(5, 35, 15)",
+      "hsl": "hsl(140, 75%, 8%)",
+      "hue": 140,
+      "saturation": "75%",
+      "colorCategory": "green"
+    },
+    {
+      "name": "Emerald Muted Shadow",
+      "hex": "#020704",
+      "rgb": "rgb(2, 7, 4)",
+      "hsl": "hsl(140, 50%, 2%)",
+      "hue": 140,
+      "saturation": "50%",
+      "colorCategory": "green"
+    },
+    {
+      "name": "Emerald Muted Dusk",
+      "hex": "#050f08",
+      "rgb": "rgb(5, 15, 8)",
+      "hsl": "hsl(140, 50%, 4%)",
+      "hue": 140,
+      "saturation": "50%",
+      "colorCategory": "green"
+    },
+    {
+      "name": "Emerald Muted Dawn",
+      "hex": "#0a1e11",
+      "rgb": "rgb(10, 30, 17)",
+      "hsl": "hsl(140, 50%, 8%)",
+      "hue": 140,
+      "saturation": "50%",
+      "colorCategory": "green"
+    },
+    {
+      "name": "Emerald Faint Shadow",
+      "hex": "#030604",
+      "rgb": "rgb(3, 6, 4)",
+      "hsl": "hsl(140, 25%, 2%)",
+      "hue": 140,
+      "saturation": "25%",
+      "colorCategory": "green"
+    },
+    {
+      "name": "Emerald Faint Dusk",
+      "hex": "#070c09",
+      "rgb": "rgb(7, 12, 9)",
+      "hsl": "hsl(140, 25%, 4%)",
+      "hue": 140,
+      "saturation": "25%",
+      "colorCategory": "green"
+    },
+    {
+      "name": "Emerald Faint Dawn",
+      "hex": "#0f1912",
+      "rgb": "rgb(15, 25, 18)",
+      "hsl": "hsl(140, 25%, 8%)",
+      "hue": 140,
+      "saturation": "25%",
+      "colorCategory": "green"
+    },
+    {
+      "name": "Lime Vivid Shadow",
+      "hex": "#030a00",
+      "rgb": "rgb(3, 10, 0)",
+      "hsl": "hsl(100, 100%, 2%)",
+      "hue": 100,
+      "saturation": "100%",
+      "colorCategory": "green"
+    },
+    {
+      "name": "Lime Vivid Dusk",
+      "hex": "#061400",
+      "rgb": "rgb(6, 20, 0)",
+      "hsl": "hsl(100, 100%, 4%)",
+      "hue": 100,
+      "saturation": "100%",
+      "colorCategory": "green"
+    },
+    {
+      "name": "Lime Vivid Dawn",
+      "hex": "#0d2800",
+      "rgb": "rgb(13, 40, 0)",
+      "hsl": "hsl(100, 100%, 8%)",
+      "hue": 100,
+      "saturation": "100%",
+      "colorCategory": "green"
+    },
+    {
+      "name": "Lime Rich Shadow",
+      "hex": "#030801",
+      "rgb": "rgb(3, 8, 1)",
+      "hsl": "hsl(100, 75%, 2%)",
+      "hue": 100,
+      "saturation": "75%",
+      "colorCategory": "green"
+    },
+    {
+      "name": "Lime Rich Dusk",
+      "hex": "#071102",
+      "rgb": "rgb(7, 17, 2)",
+      "hsl": "hsl(100, 75%, 4%)",
+      "hue": 100,
+      "saturation": "75%",
+      "colorCategory": "green"
+    },
+    {
+      "name": "Lime Rich Dawn",
+      "hex": "#0f2305",
+      "rgb": "rgb(15, 35, 5)",
+      "hsl": "hsl(100, 75%, 8%)",
+      "hue": 100,
+      "saturation": "75%",
+      "colorCategory": "green"
+    },
+    {
+      "name": "Lime Muted Shadow",
+      "hex": "#040702",
+      "rgb": "rgb(4, 7, 2)",
+      "hsl": "hsl(100, 50%, 2%)",
+      "hue": 100,
+      "saturation": "50%",
+      "colorCategory": "green"
+    },
+    {
+      "name": "Lime Muted Dusk",
+      "hex": "#080f05",
+      "rgb": "rgb(8, 15, 5)",
+      "hsl": "hsl(100, 50%, 4%)",
+      "hue": 100,
+      "saturation": "50%",
+      "colorCategory": "green"
+    },
+    {
+      "name": "Lime Muted Dawn",
+      "hex": "#101e0a",
+      "rgb": "rgb(16, 30, 10)",
+      "hsl": "hsl(100, 50%, 8%)",
+      "hue": 100,
+      "saturation": "50%",
+      "colorCategory": "green"
+    },
+    {
+      "name": "Lime Faint Shadow",
+      "hex": "#040603",
+      "rgb": "rgb(4, 6, 3)",
+      "hsl": "hsl(100, 25%, 2%)",
+      "hue": 100,
+      "saturation": "25%",
+      "colorCategory": "green"
+    },
+    {
+      "name": "Lime Faint Dusk",
+      "hex": "#090c07",
+      "rgb": "rgb(9, 12, 7)",
+      "hsl": "hsl(100, 25%, 4%)",
+      "hue": 100,
+      "saturation": "25%",
+      "colorCategory": "green"
+    },
+    {
+      "name": "Lime Faint Dawn",
+      "hex": "#12190f",
+      "rgb": "rgb(18, 25, 15)",
+      "hsl": "hsl(100, 25%, 8%)",
+      "hue": 100,
+      "saturation": "25%",
+      "colorCategory": "green"
+    },
+    {
+      "name": "Ocean Vivid Shadow",
+      "hex": "#00050a",
+      "rgb": "rgb(0, 5, 10)",
+      "hsl": "hsl(210, 100%, 2%)",
+      "hue": 210,
+      "saturation": "100%",
+      "colorCategory": "blue"
+    },
+    {
+      "name": "Ocean Vivid Dusk",
+      "hex": "#000a14",
+      "rgb": "rgb(0, 10, 20)",
+      "hsl": "hsl(210, 100%, 4%)",
+      "hue": 210,
+      "saturation": "100%",
+      "colorCategory": "blue"
+    },
+    {
+      "name": "Ocean Vivid Dawn",
+      "hex": "#001428",
+      "rgb": "rgb(0, 20, 40)",
+      "hsl": "hsl(210, 100%, 8%)",
+      "hue": 210,
+      "saturation": "100%",
+      "colorCategory": "blue"
+    },
+    {
+      "name": "Ocean Rich Shadow",
+      "hex": "#010508",
+      "rgb": "rgb(1, 5, 8)",
+      "hsl": "hsl(210, 75%, 2%)",
+      "hue": 210,
+      "saturation": "75%",
+      "colorCategory": "blue"
+    },
+    {
+      "name": "Ocean Rich Dusk",
+      "hex": "#020a11",
+      "rgb": "rgb(2, 10, 17)",
+      "hsl": "hsl(210, 75%, 4%)",
+      "hue": 210,
+      "saturation": "75%",
+      "colorCategory": "blue"
+    },
+    {
+      "name": "Ocean Rich Dawn",
+      "hex": "#051423",
+      "rgb": "rgb(5, 20, 35)",
+      "hsl": "hsl(210, 75%, 8%)",
+      "hue": 210,
+      "saturation": "75%",
+      "colorCategory": "blue"
+    },
+    {
+      "name": "Ocean Muted Shadow",
+      "hex": "#020507",
+      "rgb": "rgb(2, 5, 7)",
+      "hsl": "hsl(210, 50%, 2%)",
+      "hue": 210,
+      "saturation": "50%",
+      "colorCategory": "blue"
+    },
+    {
+      "name": "Ocean Muted Dusk",
+      "hex": "#050a0f",
+      "rgb": "rgb(5, 10, 15)",
+      "hsl": "hsl(210, 50%, 4%)",
+      "hue": 210,
+      "saturation": "50%",
+      "colorCategory": "blue"
+    },
+    {
+      "name": "Ocean Muted Dawn",
+      "hex": "#0a141e",
+      "rgb": "rgb(10, 20, 30)",
+      "hsl": "hsl(210, 50%, 8%)",
+      "hue": 210,
+      "saturation": "50%",
+      "colorCategory": "blue"
+    },
+    {
+      "name": "Ocean Faint Shadow",
+      "hex": "#030506",
+      "rgb": "rgb(3, 5, 6)",
+      "hsl": "hsl(210, 25%, 2%)",
+      "hue": 210,
+      "saturation": "25%",
+      "colorCategory": "blue"
+    },
+    {
+      "name": "Ocean Faint Dusk",
+      "hex": "#070a0c",
+      "rgb": "rgb(7, 10, 12)",
+      "hsl": "hsl(210, 25%, 4%)",
+      "hue": 210,
+      "saturation": "25%",
+      "colorCategory": "blue"
+    },
+    {
+      "name": "Ocean Faint Dawn",
+      "hex": "#0f1419",
+      "rgb": "rgb(15, 20, 25)",
+      "hsl": "hsl(210, 25%, 8%)",
+      "hue": 210,
+      "saturation": "25%",
+      "colorCategory": "blue"
+    },
+    {
+      "name": "Sky Vivid Shadow",
+      "hex": "#00080a",
+      "rgb": "rgb(0, 8, 10)",
+      "hsl": "hsl(190, 100%, 2%)",
+      "hue": 190,
+      "saturation": "100%",
+      "colorCategory": "blue"
+    },
+    {
+      "name": "Sky Vivid Dusk",
+      "hex": "#001014",
+      "rgb": "rgb(0, 16, 20)",
+      "hsl": "hsl(190, 100%, 4%)",
+      "hue": 190,
+      "saturation": "100%",
+      "colorCategory": "blue"
+    },
+    {
+      "name": "Sky Vivid Dawn",
+      "hex": "#002128",
+      "rgb": "rgb(0, 33, 40)",
+      "hsl": "hsl(190, 100%, 8%)",
+      "hue": 190,
+      "saturation": "100%",
+      "colorCategory": "blue"
+    },
+    {
+      "name": "Sky Rich Shadow",
+      "hex": "#010708",
+      "rgb": "rgb(1, 7, 8)",
+      "hsl": "hsl(190, 75%, 2%)",
+      "hue": 190,
+      "saturation": "75%",
+      "colorCategory": "blue"
+    },
+    {
+      "name": "Sky Rich Dusk",
+      "hex": "#020f11",
+      "rgb": "rgb(2, 15, 17)",
+      "hsl": "hsl(190, 75%, 4%)",
+      "hue": 190,
+      "saturation": "75%",
+      "colorCategory": "blue"
+    },
+    {
+      "name": "Sky Rich Dawn",
+      "hex": "#051e23",
+      "rgb": "rgb(5, 30, 35)",
+      "hsl": "hsl(190, 75%, 8%)",
+      "hue": 190,
+      "saturation": "75%",
+      "colorCategory": "blue"
+    },
+    {
+      "name": "Sky Muted Shadow",
+      "hex": "#020607",
+      "rgb": "rgb(2, 6, 7)",
+      "hsl": "hsl(190, 50%, 2%)",
+      "hue": 190,
+      "saturation": "50%",
+      "colorCategory": "blue"
+    },
+    {
+      "name": "Sky Muted Dusk",
+      "hex": "#050d0f",
+      "rgb": "rgb(5, 13, 15)",
+      "hsl": "hsl(190, 50%, 4%)",
+      "hue": 190,
+      "saturation": "50%",
+      "colorCategory": "blue"
+    },
+    {
+      "name": "Sky Muted Dawn",
+      "hex": "#0a1b1e",
+      "rgb": "rgb(10, 27, 30)",
+      "hsl": "hsl(190, 50%, 8%)",
+      "hue": 190,
+      "saturation": "50%",
+      "colorCategory": "blue"
+    },
+    {
+      "name": "Sky Faint Shadow",
+      "hex": "#030506",
+      "rgb": "rgb(3, 5, 6)",
+      "hsl": "hsl(190, 25%, 2%)",
+      "hue": 190,
+      "saturation": "25%",
+      "colorCategory": "blue"
+    },
+    {
+      "name": "Sky Faint Dusk",
+      "hex": "#070b0c",
+      "rgb": "rgb(7, 11, 12)",
+      "hsl": "hsl(190, 25%, 4%)",
+      "hue": 190,
+      "saturation": "25%",
+      "colorCategory": "blue"
+    },
+    {
+      "name": "Sky Faint Dawn",
+      "hex": "#0f1719",
+      "rgb": "rgb(15, 23, 25)",
+      "hsl": "hsl(190, 25%, 8%)",
+      "hue": 190,
+      "saturation": "25%",
+      "colorCategory": "blue"
+    },
+    {
+      "name": "Orchid Vivid Shadow",
+      "hex": "#08000a",
+      "rgb": "rgb(8, 0, 10)",
+      "hsl": "hsl(290, 100%, 2%)",
+      "hue": 290,
+      "saturation": "100%",
+      "colorCategory": "purple"
+    },
+    {
+      "name": "Orchid Vivid Dusk",
+      "hex": "#100014",
+      "rgb": "rgb(16, 0, 20)",
+      "hsl": "hsl(290, 100%, 4%)",
+      "hue": 290,
+      "saturation": "100%",
+      "colorCategory": "purple"
+    },
+    {
+      "name": "Orchid Vivid Dawn",
+      "hex": "#210028",
+      "rgb": "rgb(33, 0, 40)",
+      "hsl": "hsl(290, 100%, 8%)",
+      "hue": 290,
+      "saturation": "100%",
+      "colorCategory": "purple"
+    },
+    {
+      "name": "Orchid Rich Shadow",
+      "hex": "#070108",
+      "rgb": "rgb(7, 1, 8)",
+      "hsl": "hsl(290, 75%, 2%)",
+      "hue": 290,
+      "saturation": "75%",
+      "colorCategory": "purple"
+    },
+    {
+      "name": "Orchid Rich Dusk",
+      "hex": "#0f0211",
+      "rgb": "rgb(15, 2, 17)",
+      "hsl": "hsl(290, 75%, 4%)",
+      "hue": 290,
+      "saturation": "75%",
+      "colorCategory": "purple"
+    },
+    {
+      "name": "Orchid Rich Dawn",
+      "hex": "#1e0523",
+      "rgb": "rgb(30, 5, 35)",
+      "hsl": "hsl(290, 75%, 8%)",
+      "hue": 290,
+      "saturation": "75%",
+      "colorCategory": "purple"
+    },
+    {
+      "name": "Orchid Muted Shadow",
+      "hex": "#060207",
+      "rgb": "rgb(6, 2, 7)",
+      "hsl": "hsl(290, 50%, 2%)",
+      "hue": 290,
+      "saturation": "50%",
+      "colorCategory": "purple"
+    },
+    {
+      "name": "Orchid Muted Dusk",
+      "hex": "#0d050f",
+      "rgb": "rgb(13, 5, 15)",
+      "hsl": "hsl(290, 50%, 4%)",
+      "hue": 290,
+      "saturation": "50%",
+      "colorCategory": "purple"
+    },
+    {
+      "name": "Orchid Muted Dawn",
+      "hex": "#1b0a1e",
+      "rgb": "rgb(27, 10, 30)",
+      "hsl": "hsl(290, 50%, 8%)",
+      "hue": 290,
+      "saturation": "50%",
+      "colorCategory": "purple"
+    },
+    {
+      "name": "Orchid Faint Shadow",
+      "hex": "#050306",
+      "rgb": "rgb(5, 3, 6)",
+      "hsl": "hsl(290, 25%, 2%)",
+      "hue": 290,
+      "saturation": "25%",
+      "colorCategory": "purple"
+    },
+    {
+      "name": "Orchid Faint Dusk",
+      "hex": "#0b070c",
+      "rgb": "rgb(11, 7, 12)",
+      "hsl": "hsl(290, 25%, 4%)",
+      "hue": 290,
+      "saturation": "25%",
+      "colorCategory": "purple"
+    },
+    {
+      "name": "Orchid Faint Dawn",
+      "hex": "#170f19",
+      "rgb": "rgb(23, 15, 25)",
+      "hsl": "hsl(290, 25%, 8%)",
+      "hue": 290,
+      "saturation": "25%",
+      "colorCategory": "purple"
+    },
+    {
+      "name": "Crimson Vivid Shadow",
+      "hex": "#0a0000",
+      "rgb": "rgb(10, 0, 0)",
+      "hsl": "hsl(0, 100%, 2%)",
+      "hue": 0,
+      "saturation": "100%",
+      "colorCategory": "red"
+    },
+    {
+      "name": "Crimson Vivid Dusk",
+      "hex": "#140000",
+      "rgb": "rgb(20, 0, 0)",
+      "hsl": "hsl(0, 100%, 4%)",
+      "hue": 0,
+      "saturation": "100%",
+      "colorCategory": "red"
+    },
+    {
+      "name": "Crimson Vivid Dawn",
+      "hex": "#280000",
+      "rgb": "rgb(40, 0, 0)",
+      "hsl": "hsl(0, 100%, 8%)",
+      "hue": 0,
+      "saturation": "100%",
+      "colorCategory": "red"
+    },
+    {
+      "name": "Crimson Rich Shadow",
+      "hex": "#080101",
+      "rgb": "rgb(8, 1, 1)",
+      "hsl": "hsl(0, 75%, 2%)",
+      "hue": 0,
+      "saturation": "75%",
+      "colorCategory": "red"
+    },
+    {
+      "name": "Crimson Rich Dusk",
+      "hex": "#110202",
+      "rgb": "rgb(17, 2, 2)",
+      "hsl": "hsl(0, 75%, 4%)",
+      "hue": 0,
+      "saturation": "75%",
+      "colorCategory": "red"
+    },
+    {
+      "name": "Crimson Rich Dawn",
+      "hex": "#230505",
+      "rgb": "rgb(35, 5, 5)",
+      "hsl": "hsl(0, 75%, 8%)",
+      "hue": 0,
+      "saturation": "75%",
+      "colorCategory": "red"
+    },
+    {
+      "name": "Crimson Muted Shadow",
+      "hex": "#070202",
+      "rgb": "rgb(7, 2, 2)",
+      "hsl": "hsl(0, 50%, 2%)",
+      "hue": 0,
+      "saturation": "50%",
+      "colorCategory": "red"
+    },
+    {
+      "name": "Crimson Muted Dusk",
+      "hex": "#0f0505",
+      "rgb": "rgb(15, 5, 5)",
+      "hsl": "hsl(0, 50%, 4%)",
+      "hue": 0,
+      "saturation": "50%",
+      "colorCategory": "red"
+    },
+    {
+      "name": "Crimson Muted Dawn",
+      "hex": "#1e0a0a",
+      "rgb": "rgb(30, 10, 10)",
+      "hsl": "hsl(0, 50%, 8%)",
+      "hue": 0,
+      "saturation": "50%",
+      "colorCategory": "red"
+    },
+    {
+      "name": "Crimson Faint Shadow",
+      "hex": "#060303",
+      "rgb": "rgb(6, 3, 3)",
+      "hsl": "hsl(0, 25%, 2%)",
+      "hue": 0,
+      "saturation": "25%",
+      "colorCategory": "red"
+    },
+    {
+      "name": "Crimson Faint Dusk",
+      "hex": "#0c0707",
+      "rgb": "rgb(12, 7, 7)",
+      "hsl": "hsl(0, 25%, 4%)",
+      "hue": 0,
+      "saturation": "25%",
+      "colorCategory": "red"
+    },
+    {
+      "name": "Crimson Faint Dawn",
+      "hex": "#190f0f",
+      "rgb": "rgb(25, 15, 15)",
+      "hsl": "hsl(0, 25%, 8%)",
+      "hue": 0,
+      "saturation": "25%",
+      "colorCategory": "red"
+    },
+    {
+      "name": "Sunset Vivid Shadow",
+      "hex": "#0a0500",
+      "rgb": "rgb(10, 5, 0)",
+      "hsl": "hsl(30, 100%, 2%)",
+      "hue": 30,
+      "saturation": "100%",
+      "colorCategory": "brown"
+    },
+    {
+      "name": "Sunset Vivid Dusk",
+      "hex": "#140a00",
+      "rgb": "rgb(20, 10, 0)",
+      "hsl": "hsl(30, 100%, 4%)",
+      "hue": 30,
+      "saturation": "100%",
+      "colorCategory": "brown"
+    },
+    {
+      "name": "Sunset Vivid Dawn",
+      "hex": "#281400",
+      "rgb": "rgb(40, 20, 0)",
+      "hsl": "hsl(30, 100%, 8%)",
+      "hue": 30,
+      "saturation": "100%",
+      "colorCategory": "brown"
+    },
+    {
+      "name": "Sunset Rich Shadow",
+      "hex": "#080501",
+      "rgb": "rgb(8, 5, 1)",
+      "hsl": "hsl(30, 75%, 2%)",
+      "hue": 30,
+      "saturation": "75%",
+      "colorCategory": "brown"
+    },
+    {
+      "name": "Sunset Rich Dusk",
+      "hex": "#110a02",
+      "rgb": "rgb(17, 10, 2)",
+      "hsl": "hsl(30, 75%, 4%)",
+      "hue": 30,
+      "saturation": "75%",
+      "colorCategory": "brown"
+    },
+    {
+      "name": "Sunset Rich Dawn",
+      "hex": "#231405",
+      "rgb": "rgb(35, 20, 5)",
+      "hsl": "hsl(30, 75%, 8%)",
+      "hue": 30,
+      "saturation": "75%",
+      "colorCategory": "brown"
+    },
+    {
+      "name": "Sunset Muted Shadow",
+      "hex": "#070502",
+      "rgb": "rgb(7, 5, 2)",
+      "hsl": "hsl(30, 50%, 2%)",
+      "hue": 30,
+      "saturation": "50%",
+      "colorCategory": "brown"
+    },
+    {
+      "name": "Sunset Muted Dusk",
+      "hex": "#0f0a05",
+      "rgb": "rgb(15, 10, 5)",
+      "hsl": "hsl(30, 50%, 4%)",
+      "hue": 30,
+      "saturation": "50%",
+      "colorCategory": "brown"
+    },
+    {
+      "name": "Sunset Muted Dawn",
+      "hex": "#1e140a",
+      "rgb": "rgb(30, 20, 10)",
+      "hsl": "hsl(30, 50%, 8%)",
+      "hue": 30,
+      "saturation": "50%",
+      "colorCategory": "brown"
+    },
+    {
+      "name": "Sunset Faint Shadow",
+      "hex": "#060503",
+      "rgb": "rgb(6, 5, 3)",
+      "hsl": "hsl(30, 25%, 2%)",
+      "hue": 30,
+      "saturation": "25%",
+      "colorCategory": "brown"
+    },
+    {
+      "name": "Sunset Faint Dusk",
+      "hex": "#0c0a07",
+      "rgb": "rgb(12, 10, 7)",
+      "hsl": "hsl(30, 25%, 4%)",
+      "hue": 30,
+      "saturation": "25%",
+      "colorCategory": "brown"
+    },
+    {
+      "name": "Sunset Faint Dawn",
+      "hex": "#19140f",
+      "rgb": "rgb(25, 20, 15)",
+      "hsl": "hsl(30, 25%, 8%)",
+      "hue": 30,
+      "saturation": "25%",
+      "colorCategory": "brown"
+    },
+    {
+      "name": "Golden Vivid Shadow",
+      "hex": "#0a0800",
+      "rgb": "rgb(10, 8, 0)",
+      "hsl": "hsl(50, 100%, 2%)",
+      "hue": 50,
+      "saturation": "100%",
+      "colorCategory": "brown"
+    },
+    {
+      "name": "Golden Vivid Dusk",
+      "hex": "#141100",
+      "rgb": "rgb(20, 17, 0)",
+      "hsl": "hsl(50, 100%, 4%)",
+      "hue": 50,
+      "saturation": "100%",
+      "colorCategory": "brown"
+    },
+    {
+      "name": "Golden Vivid Dawn",
+      "hex": "#282200",
+      "rgb": "rgb(40, 34, 0)",
+      "hsl": "hsl(50, 100%, 8%)",
+      "hue": 50,
+      "saturation": "100%",
+      "colorCategory": "brown"
+    },
+    {
+      "name": "Golden Rich Shadow",
+      "hex": "#080701",
+      "rgb": "rgb(8, 7, 1)",
+      "hsl": "hsl(50, 75%, 2%)",
+      "hue": 50,
+      "saturation": "75%",
+      "colorCategory": "brown"
+    },
+    {
+      "name": "Golden Rich Dusk",
+      "hex": "#110f02",
+      "rgb": "rgb(17, 15, 2)",
+      "hsl": "hsl(50, 75%, 4%)",
+      "hue": 50,
+      "saturation": "75%",
+      "colorCategory": "brown"
+    },
+    {
+      "name": "Golden Rich Dawn",
+      "hex": "#231e05",
+      "rgb": "rgb(35, 30, 5)",
+      "hsl": "hsl(50, 75%, 8%)",
+      "hue": 50,
+      "saturation": "75%",
+      "colorCategory": "brown"
+    },
+    {
+      "name": "Golden Muted Shadow",
+      "hex": "#070602",
+      "rgb": "rgb(7, 6, 2)",
+      "hsl": "hsl(50, 50%, 2%)",
+      "hue": 50,
+      "saturation": "50%",
+      "colorCategory": "brown"
+    },
+    {
+      "name": "Golden Muted Dusk",
+      "hex": "#0f0d05",
+      "rgb": "rgb(15, 13, 5)",
+      "hsl": "hsl(50, 50%, 4%)",
+      "hue": 50,
+      "saturation": "50%",
+      "colorCategory": "brown"
+    },
+    {
+      "name": "Golden Muted Dawn",
+      "hex": "#1e1b0a",
+      "rgb": "rgb(30, 27, 10)",
+      "hsl": "hsl(50, 50%, 8%)",
+      "hue": 50,
+      "saturation": "50%",
+      "colorCategory": "brown"
+    },
+    {
+      "name": "Golden Faint Shadow",
+      "hex": "#060503",
+      "rgb": "rgb(6, 5, 3)",
+      "hsl": "hsl(50, 25%, 2%)",
+      "hue": 50,
+      "saturation": "25%",
+      "colorCategory": "brown"
+    },
+    {
+      "name": "Golden Faint Dusk",
+      "hex": "#0c0b07",
+      "rgb": "rgb(12, 11, 7)",
+      "hsl": "hsl(50, 25%, 4%)",
+      "hue": 50,
+      "saturation": "25%",
+      "colorCategory": "brown"
+    },
+    {
+      "name": "Golden Faint Dawn",
+      "hex": "#19170f",
+      "rgb": "rgb(25, 23, 15)",
+      "hsl": "hsl(50, 25%, 8%)",
+      "hue": 50,
+      "saturation": "25%",
+      "colorCategory": "brown"
+    }
+  ]
