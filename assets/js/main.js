@@ -11,6 +11,12 @@ document.addEventListener("DOMContentLoaded", function () {
 		document.documentElement.classList.toggle('site-panel-open');
 	});
 
+
+	// Embed Mode
+	if (window.location.search.includes('embed')) {
+		document.documentElement.classList.add('is-embed');
+	}
+
 	const colorGrid = document.querySelector('.color-grid');
 	const checkboxes = document.querySelectorAll('.site-filter input[type="checkbox"]');
 
@@ -97,21 +103,37 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	// Function to update URL with the current filters
 	function updateUrlWithFilters() {
+		const url = new URL(window.location.href);
+		const params = new URLSearchParams(url.search);
+
+		// Entferne alten filter
+		params.delete('filter');
+
+		// Neue Filter hinzufügen
 		const selectedFilters = Array.from(checkboxes)
 			.filter(checkbox => checkbox.checked)
-			.map(checkbox => checkbox.id.replace('filter-color-', ''))
-			.join('+');
+			.map(checkbox => checkbox.id.replace('filter-color-', ''));
 
-		// Update the URL without reloading the page
-		if (selectedFilters) {
-			const newUrl = `${window.location.pathname}?filter=${selectedFilters}`;
-			window.history.replaceState(null, '', newUrl);
-		} else {
-			// If no filters are selected, remove the 'filter' parameter
-			const newUrl = window.location.pathname;
-			window.history.replaceState(null, '', newUrl);
+		if (selectedFilters.length > 0) {
+			params.set('filter', selectedFilters.join('+'));
 		}
+
+		// 🛠️ Custom URL zusammensetzen, um `embed` ohne `=` zu behalten
+		const basePath = url.pathname;
+		const paramEntries = [];
+		params.forEach((value, key) => {
+			if (value === '') {
+				paramEntries.push(encodeURIComponent(key));
+			} else {
+				paramEntries.push(`${encodeURIComponent(key)}=${encodeURIComponent(value)}`);
+			}
+		});
+
+		const newUrl = paramEntries.length > 0 ? `${basePath}?${paramEntries.join('&')}` : basePath;
+		window.history.replaceState(null, '', newUrl);
 	}
+
+
 
 	// Function to filter color tiles based on selected checkboxes
 	function filterColors() {
