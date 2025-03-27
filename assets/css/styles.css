@@ -661,3 +661,21 @@ input[type="checkbox"]:checked::before {
 		transform: translate3d(0, 10px, 0)
 	}
 }
+
+/* Embed Mode */
+.is-embed {
+	.site-header,
+	.site-footer {
+		display: none;
+	}
+	.site-content {
+		min-height: 100svh;
+	}
+
+	.site-content {
+		width: 100%;
+		max-width: calc( 1840px + 0px );
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
